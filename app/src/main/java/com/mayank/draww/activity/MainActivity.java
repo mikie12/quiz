@@ -322,7 +322,7 @@ public class MainActivity extends AppCompatActivity {
             if (navItemIndex != 0) {
                 navItemIndex = 0;
                 CURRENT_TAG = TAG_HOME;
-                loadHomeFragment();
+                    loadHomeFragment();
                 return;
             }
         }
